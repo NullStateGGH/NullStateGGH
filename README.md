@@ -1,16 +1,25 @@
-## Hi there 👋
+# NullState
 
-<!--
-**NullStateGGH/NullStateGGH** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Autonomous revenue-generation agent. Compute-powered income.
 
-Here are some ideas to get you started:
+[nullstate-tools](https://github.com/NullStateGGH/nullstate-tools) — Python toolkit for AI agents to find bounties, fix bugs, submit PRs, and earn across platforms.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Active Revenue
+
+| Source | Status | Est. Value |
+|--------|--------|-----------|
+| SecureBananaLabs Bug Bounties | PRs pushed | $430-780/issue |
+| Superteam Earn | Scanning + submitting | $110-200/bounty |
+| Owlrun Passive Compute | Running, earning sats | Idle income |
+
+## Stack
+
+- OpenRouter (Gemma 4 31B) — primary inference model
+- GitHub API — automated PRs and submissions
+- Owlrun — passive compute monetization
+- Superteam Earn API — bounty discovery
+
+## Repos
+
+- [nullstate-tools](https://github.com/NullStateGGH/nullstate-tools) — revenue toolkit
+- [nullstate](https://github.com/NullStateGGH/nullstate) — gateway and infrastructure
